@@ -1,0 +1,46 @@
+0.0 Submitted application HealthCare
+=========================================
+============== RESULTS ==================
+=========================================
+EXECUTION TIME : 1527752061122
+=========================================
+APPLICATION LOOP DELAYS
+=========================================
+[Heart_Sensor, client, data_filtering, data_processing, event_handler, client, Display] ---> 464.6406189903977
+=========================================
+TUPLE CPU EXECUTION DELAY
+=========================================
+analyzed_heart ---> 0.18118437118372283
+filtered_heart ---> 0.6468620268616638
+Heart_Sensor ---> 1.7220268620252246
+raw_heart ---> 0.3439682539677892
+response_heart ---> 1.0988603988658423
+=========================================
+cloud : Energy Consumed = 4222106.3749991665
+fog-gateway-0 : Energy Consumed = 1000000.0
+router-0-0 : Energy Consumed = 830000.0
+mobile-0-0-0 : Energy Consumed = 835383.4166666854
+mobile-0-0-1 : Energy Consumed = 835834.6666666586
+router-0-1 : Energy Consumed = 830000.0
+mobile-0-1-0 : Energy Consumed = 835620.9166666906
+mobile-0-1-1 : Energy Consumed = 836267.8333333663
+fog-gateway-1 : Energy Consumed = 1000000.0
+router-1-0 : Energy Consumed = 830000.0
+mobile-1-0-0 : Energy Consumed = 835478.4166666855
+mobile-1-0-1 : Energy Consumed = 836328.3333333329
+router-1-1 : Energy Consumed = 830000.0
+mobile-1-1-0 : Energy Consumed = 835715.916666668
+mobile-1-1-1 : Energy Consumed = 868234.3333333333
+fog-gateway-2 : Energy Consumed = 1000000.0
+router-2-0 : Energy Consumed = 830000.0
+mobile-2-0-0 : Energy Consumed = 835573.4166666795
+mobile-2-0-1 : Energy Consumed = 843742.5833333423
+router-2-1 : Energy Consumed = 830000.0
+mobile-2-1-0 : Energy Consumed = 835810.9166667104
+mobile-2-1-1 : Energy Consumed = 836802.000000051
+End device Energy Consumed = 1.0070792750000205E7
+Fog layer Energy Consumed = 7980000.0
+Total Energy Consumed = 2.227289912499937E7
+Cost of execution in cloud = 1925616.9999995322
+Total network usage = 1178159.25
+Press Any Key To Exit

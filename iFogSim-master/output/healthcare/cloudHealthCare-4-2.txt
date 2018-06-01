@@ -1,0 +1,53 @@
+0.0 Submitted application HealthCare
+=========================================
+============== RESULTS ==================
+=========================================
+EXECUTION TIME : 1527752083621
+=========================================
+APPLICATION LOOP DELAYS
+=========================================
+[Heart_Sensor, client, data_filtering, data_processing, event_handler, client, Display] ---> 469.46592653628494
+=========================================
+TUPLE CPU EXECUTION DELAY
+=========================================
+analyzed_heart ---> 0.3124975204089418
+filtered_heart ---> 0.4107937557590357
+Heart_Sensor ---> 2.1648653391206008
+raw_heart ---> 0.3540695811498731
+response_heart ---> 0.6181495892758648
+=========================================
+cloud : Energy Consumed = 4662307.000566721
+fog-gateway-0 : Energy Consumed = 1000000.0
+router-0-0 : Energy Consumed = 830000.0
+mobile-0-0-0 : Energy Consumed = 862281.4119040496
+mobile-0-0-1 : Energy Consumed = 863572.4216542888
+router-0-1 : Energy Consumed = 830000.0
+mobile-0-1-0 : Energy Consumed = 865375.500356256
+mobile-0-1-1 : Energy Consumed = 840734.8333334491
+fog-gateway-1 : Energy Consumed = 1000000.0
+router-1-0 : Energy Consumed = 830000.0
+mobile-1-0-0 : Energy Consumed = 836353.6619040677
+mobile-1-0-1 : Energy Consumed = 836973.1666479601
+router-1-1 : Energy Consumed = 830000.0
+mobile-1-1-0 : Energy Consumed = 850012.9583331642
+mobile-1-1-1 : Energy Consumed = 862202.5883959606
+fog-gateway-2 : Energy Consumed = 1000000.0
+router-2-0 : Energy Consumed = 830000.0
+mobile-2-0-0 : Energy Consumed = 844025.2917603301
+mobile-2-0-1 : Energy Consumed = 863517.2502812569
+router-2-1 : Energy Consumed = 830000.0
+mobile-2-1-0 : Energy Consumed = 861910.333708342
+mobile-2-1-1 : Energy Consumed = 866586.7500000001
+fog-gateway-3 : Energy Consumed = 1000000.0
+router-3-0 : Energy Consumed = 830000.0
+mobile-3-0-0 : Energy Consumed = 836012.3383959807
+mobile-3-0-1 : Energy Consumed = 866663.4166666018
+router-3-1 : Energy Consumed = 830000.0
+mobile-3-1-0 : Energy Consumed = 837925.9170417661
+mobile-3-1-1 : Energy Consumed = 863826.453570713
+End device Energy Consumed = 1.3657974293954188E7
+Fog layer Energy Consumed = 1.064E7
+Total Energy Consumed = 2.8960281294520907E7
+Cost of execution in cloud = 3099485.334846554
+Total network usage = 1974249.0
+Press Any Key To Exit

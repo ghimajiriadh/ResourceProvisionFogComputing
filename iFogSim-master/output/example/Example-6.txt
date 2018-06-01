@@ -1,0 +1,51 @@
+0.0 Submitted application Example
+=========================================
+============== RESULTS ==================
+=========================================
+EXECUTION TIME : 7007
+=========================================
+APPLICATION LOOP DELAYS
+=========================================
+[IoT_Sensor, module_1, module_2, module_3, module_4, module_5, module_4, module_3, module_2, module_1, Display] ---> 151.80909229829047
+[module_5, module_6, module_1, Display] ---> null
+=========================================
+TUPLE CPU EXECUTION DELAY
+=========================================
+TT_6 ---> 1.050238696093377
+TT_5 ---> 3.121951767303095
+TT_4 ---> 3.3783489874065307
+TT_3 ---> 0.9141783316110391
+TT_2 ---> 1.4387357059841837
+TT_11 ---> 0.8009305154981882
+TT_10 ---> 0.1375000000007276
+TT_9 ---> 0.7522340880407616
+IoT_Sensor ---> 0.86565147872684
+TT_8 ---> 0.24581828103226847
+TT_7 ---> 0.554042020628654
+=========================================
+cloud : Energy Consumed = 3660558.125000024
+ISP-Gateway : Energy Consumed = 2475118.324999868
+Fog-0-Gateway : Energy Consumed = 979907.6000000444
+Device-0-0 : Energy Consumed = 837208.0000000116
+Device-0-1 : Energy Consumed = 843551.5625000014
+Fog-1-Gateway : Energy Consumed = 975914.9000000445
+Device-1-0 : Energy Consumed = 839755.0625000125
+Device-1-1 : Energy Consumed = 832078.5625000073
+Fog-2-Gateway : Energy Consumed = 981434.9000000404
+Device-2-0 : Energy Consumed = 837047.5000000047
+Device-2-1 : Energy Consumed = 837813.3125000191
+Fog-3-Gateway : Energy Consumed = 974992.7000000413
+Device-3-0 : Energy Consumed = 843385.3125000197
+Device-3-1 : Energy Consumed = 846009.8125000135
+Fog-4-Gateway : Energy Consumed = 971260.4000000432
+Device-4-0 : Energy Consumed = 835865.0625000146
+Device-4-1 : Energy Consumed = 853157.687500004
+Fog-5-Gateway : Energy Consumed = 971666.300000048
+Device-5-0 : Energy Consumed = 851899.6874999985
+Device-5-1 : Energy Consumed = 857780.8125000021
+End device Energy Consumed = 1.0115552375000108E7
+Fog layer Energy Consumed = 8330295.125000129
+Total Energy Consumed = 2.210640562500026E7
+Cost of execution in cloud = 428155.00000001997
+Total network usage = 60928.25
+Press Any Key To Exit

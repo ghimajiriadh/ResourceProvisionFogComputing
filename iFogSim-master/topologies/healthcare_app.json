@@ -1,0 +1,111 @@
+{
+	"modules": [{
+			"name": "client",
+			"mips": 1000,
+			"ram": 1024,
+			"bw": 500
+		}, {
+			"name": "data_filtering",
+			"mips": 2500,
+			"ram": 2048,
+			"bw": 100
+		}, {
+			"name": "data_processing",
+			"mips": 3000,
+			"ram": 2048,
+			"bw": 100
+		}, {
+			"name": "event_handler",
+			"mips": 4000,
+			"ram": 4096,
+			"bw": 200
+		}
+	],
+	"edge": [{
+			"src": "Heart_Sensor",
+			"des": "client",
+			"mips": 3000.0,
+			"nw": 500.0,
+			"tupleName": "Heart_Sensor",
+			"direction": "up",
+			"type": "sensor"
+		}, {
+			"src": "client",
+			"des": "data_filtering",
+			"mips": 2000.0,
+			"nw": 500.0,
+			"tupleName": "raw_heart",
+			"direction": "up",
+			"type": "module"
+		}, {
+			"src": "data_filtering",
+			"des": "data_processing",
+			"mips": 1500.0,
+			"nw": 1500.0,
+			"tupleName": "filtered_heart",
+			"direction": "up",
+			"type": "module",
+		}, {
+			"src": "data_processing",
+			"des": "event_handler",
+			"mips": 1000.0,
+			"nw": 1000.0,
+			"tupleName": "analyzed_heart",
+			"direction": "up",
+			"type": "module"
+		}, {
+			"src": "event_handler",
+			"des": "client",
+			"mips": 1000.0,
+			"nw": 500.0,
+			"tupleName": "response_heart",
+			"direction": "down",
+			"type": "module"
+		}, {
+			"src": "client",
+			"des": "Display",
+			"mips": 500.0,
+			"nw": 500.0,
+			"tupleName": "display_data",
+			"direction": "down",
+			"type": "actuator"
+		}
+	],
+	"tupleMapping": [{
+			"moduleName": "client",
+			"input": "Heart_Sensor",
+			"output": "raw_heart",
+			"periodcity": 1.0
+		}, {
+			"moduleName": "data_filtering",
+			"input": "raw_heart",
+			"output": "filtered_heart",
+			"periodcity": 1.0
+		}, {
+			"moduleName": "data_processing",
+			"input": "filtered_heart",
+			"output": "analyzed_heart",
+			"periodcity": 1.0
+		}, {
+			"moduleName": "event_handler",
+			"input": "analyzed_heart",
+			"output": "response_heart",
+			"periodcity": 1.0
+		}, {
+			"moduleName": "client",
+			"input": "response_heart",
+			"output": "display_data",
+			"periodcity": 1.0
+		}
+	],
+	"loop": [{
+			"name1": "Heart_Sensor",
+			"name2": "client",
+			"name3": "data_filtering",
+			"name4": "data_processing",
+			"name5": "event_handler",
+			"name6": "client",
+			"name7": "Display"
+		}
+	]
+}

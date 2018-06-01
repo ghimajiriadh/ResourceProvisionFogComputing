@@ -1,0 +1,32 @@
+0.0 Submitted application HealthCare
+=========================================
+============== RESULTS ==================
+=========================================
+EXECUTION TIME : 1527751934810
+=========================================
+APPLICATION LOOP DELAYS
+=========================================
+[Heart_Sensor, client, data_filtering, data_processing, event_handler, client, Display] ---> 461.7333333332832
+=========================================
+TUPLE CPU EXECUTION DELAY
+=========================================
+analyzed_heart ---> 0.07333333333311506
+filtered_heart ---> 0.10666666666681218
+Heart_Sensor ---> 1.1000000000003638
+raw_heart ---> 0.07666666666652115
+response_heart ---> 0.43333333333248447
+=========================================
+cloud : Energy Consumed = 3740763.874998774
+fog-gateway-0 : Energy Consumed = 1000000.0
+router-0-0 : Energy Consumed = 830000.0
+mobile-0-0-0 : Energy Consumed = 835191.8333333561
+mobile-0-0-1 : Energy Consumed = 835191.8333333576
+router-0-1 : Energy Consumed = 830000.0
+mobile-0-1-0 : Energy Consumed = 835191.8333333367
+mobile-0-1-1 : Energy Consumed = 835191.8333333536
+End device Energy Consumed = 3340767.333333404
+Fog layer Energy Consumed = 2660000.0
+Total Energy Consumed = 9741531.208332177
+Cost of execution in cloud = 642036.9999995306
+Total network usage = 190767.0
+Press Any Key To Exit

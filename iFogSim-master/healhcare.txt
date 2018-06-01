@@ -1,0 +1,44 @@
+0.0 Submitted application HealthCare
+=========================================
+============== RESULTS ==================
+=========================================
+EXECUTION TIME : 10897
+=========================================
+APPLICATION LOOP DELAYS
+=========================================
+[Heart_Sensor, client, data_filtering, data_processing, event_handler, client, Display] ---> 66.9198844291068
+=========================================
+TUPLE CPU EXECUTION DELAY
+=========================================
+analyzed_heart ---> 0.2433804290948178
+filtered_heart ---> 0.7397651026223966
+Heart_Sensor ---> 2.398531309959089
+raw_heart ---> 0.7509541252405946
+response_heart ---> 0.5178126635262357
+=========================================
+cloud : Energy Consumed = 3500000.0
+fog-gateway-0 : Energy Consumed = 1299619.285714349
+router-0-0 : Energy Consumed = 1057741.771428551
+mobile-0-0-0 : Energy Consumed = 837577.452380943
+mobile-0-0-1 : Energy Consumed = 836338.7261904778
+router-0-1 : Energy Consumed = 1063546.4000000826
+mobile-0-1-0 : Energy Consumed = 835486.5952380941
+mobile-0-1-1 : Energy Consumed = 836356.6904762198
+router-0-2 : Energy Consumed = 1061975.2000000803
+mobile-0-2-0 : Energy Consumed = 836301.2142857143
+mobile-0-2-1 : Energy Consumed = 869754.3333333334
+fog-gateway-1 : Energy Consumed = 1299619.285714349
+router-1-0 : Energy Consumed = 1057741.771428551
+mobile-1-0-0 : Energy Consumed = 837577.452380943
+mobile-1-0-1 : Energy Consumed = 836338.7261904778
+router-1-1 : Energy Consumed = 1063546.4000000826
+mobile-1-1-0 : Energy Consumed = 835486.5952380941
+mobile-1-1-1 : Energy Consumed = 836356.6904762198
+router-1-2 : Energy Consumed = 1061975.2000000803
+mobile-1-2-0 : Energy Consumed = 836301.2142857143
+mobile-1-2-1 : Energy Consumed = 869754.3333333334
+End device Energy Consumed = 1.0103630023809565E7
+Fog layer Energy Consumed = 8965765.314286124
+Total Energy Consumed = 2.2569395338095687E7
+Cost of execution in cloud = 0.0
+Total network usage = 161388.5

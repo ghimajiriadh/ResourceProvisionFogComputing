@@ -1,0 +1,51 @@
+0.0 Submitted application Example
+=========================================
+============== RESULTS ==================
+=========================================
+EXECUTION TIME : 8428
+=========================================
+APPLICATION LOOP DELAYS
+=========================================
+[IoT_Sensor, module_1, module_2, module_3, module_4, module_5, module_4, module_3, module_2, module_1, Display] ---> 448.5530247694131
+[module_5, module_6, module_1, Display] ---> null
+=========================================
+TUPLE CPU EXECUTION DELAY
+=========================================
+TT_6 ---> 0.23883752243728468
+TT_5 ---> 0.5176676301216979
+TT_4 ---> 0.46862144829845986
+TT_3 ---> 1.2895150901252346
+TT_2 ---> 1.3468877913477555
+TT_11 ---> 7.841230752146981
+TT_10 ---> 0.14155868204226285
+TT_9 ---> 0.7238976274892469
+IoT_Sensor ---> 0.8705909707509236
+TT_8 ---> 0.13054340409999754
+TT_7 ---> 0.16231022229428574
+=========================================
+cloud : Energy Consumed = 4787569.119383674
+ISP-Gateway : Energy Consumed = 1800000.0
+Fog-0-Gateway : Energy Consumed = 830000.0
+Device-0-0 : Energy Consumed = 852069.8771938097
+Device-0-1 : Energy Consumed = 844621.5019781826
+Fog-1-Gateway : Energy Consumed = 830000.0
+Device-1-0 : Energy Consumed = 845968.0018563031
+Device-1-1 : Energy Consumed = 841018.1893328592
+Fog-2-Gateway : Energy Consumed = 830000.0
+Device-2-0 : Energy Consumed = 846701.1263969123
+Device-2-1 : Energy Consumed = 853122.3750000055
+Fog-3-Gateway : Energy Consumed = 830000.0
+Device-3-0 : Energy Consumed = 852323.3131281433
+Device-3-1 : Energy Consumed = 841521.1251687652
+Fog-4-Gateway : Energy Consumed = 830000.0
+Device-4-0 : Energy Consumed = 844708.873631222
+Device-4-1 : Energy Consumed = 850274.3760406534
+Fog-5-Gateway : Energy Consumed = 830000.0
+Device-5-0 : Energy Consumed = 849449.8764437878
+Device-5-1 : Energy Consumed = 860481.2516219156
+End device Energy Consumed = 1.0182259887792561E7
+Fog layer Energy Consumed = 6780000.0
+Total Energy Consumed = 2.1749829007176235E7
+Cost of execution in cloud = 3433517.651690929
+Total network usage = 155210.5
+Press Any Key To Exit
